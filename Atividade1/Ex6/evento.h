@@ -1,0 +1,18 @@
+#ifndef EVENTO_H
+#define EVENTO_H
+
+class evento {
+public:
+    evento();
+    evento(const evento& orig);
+    virtual ~evento();
+    int prec,cust;
+
+    void lerDados();
+    float calcularCusto();
+private:
+
+};
+
+#endif
+
